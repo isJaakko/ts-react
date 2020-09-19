@@ -1,19 +1,19 @@
 /** @format */
 
-import React from 'react'
-import ReactDOM from 'react-dom'
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-const Component = () => {
-    return <div>Component</div>
-}
+const Component: React.FC = () => {
+  return <div>Component</div>;
+};
 
 const App: React.FC = () => {
-    return (
-        <div>
-            hello World
-            <Component />
-        </div>
-    )
-}
+  return (
+    <div>
+      hello World
+      <Component />
+    </div>
+  );
+};
 
-ReactDOM.render(<App />, document.getElementById('root'))
+ReactDOM.render(<App />, document.getElementById('root'));
