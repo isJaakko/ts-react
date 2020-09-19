@@ -1,0 +1,13 @@
+{
+    "editor.formatOnSave": true,
+    "debug.openDebug": "openOnFirstSessionStart",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "[javascript]": {
+      "editor.formatOnSave": false
+    },
+    "[typescript]": {
+      "editor.formatOnSave": false
+    }
+  }
